@@ -1,3 +1,2 @@
 # Ignore the authenticate.php because it contains private keys
 Authenticate.php
-.gitignore
