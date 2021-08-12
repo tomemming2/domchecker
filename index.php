@@ -1,8 +1,6 @@
 <?php
 require_once "Authenticate.php";
 
-$domain_extensions = array("nl", "com", "eu", "info", "be", "de", "net", "bizz", "online", "shop");
-
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
