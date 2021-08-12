@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #234557;
+    --light-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'lato', 'sans-serif';
+    color: #333;
+    line-height: 1.7;
+    background-color: var(--primary-color);
+}
+
+/* Showcase */
+.showcase {
+    height: 400px;
+    background-color: var(--dark-color);
+    color: white;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    color: #333;
+    width: auto;
+}
+
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    padding: 20px 0;
+}
+
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+    overflow: visible;
+}
+
+.showcase-text {
+    animation: slideInFromLeft 1s ease-in;
+    justify-content: center;
+}
+
+.container .grid .showcase-info {
+    background-color: var(--light-color)
+}
+.showcase-info {
+    margin-bottom: 250px;
+    gap: 150px;
+}
+
+.showcase-contact {
+    justify-content: center;
+}
+
+.showcase-contact-btn a, .showcase-contact-btn h1 {
+    justify-content: center;
+    margin: 25px;
+}
+
+.showcase-contact-btn a {
+    color: var(--secondary-color);
+}
+
+.output .table-output .fas {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
